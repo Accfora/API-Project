@@ -1,8 +1,8 @@
-using DataAccess.Models;
-using DataAccess.Wrapper;
+using Domain.Models;
 using Microsoft.EntityFrameworkCore;
-using BusinessLogic.Interfaces;
+using Domain.Interfaces;
 using BusinessLogic.Services;
+using DataAccess;
 
 namespace FirstSaturday
 {
@@ -13,10 +13,15 @@ namespace FirstSaturday
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddDbContext<LContext>(o => o.UseSqlServer("Server=DESKTOP-OKU7E5D;Database=L;Integrated Security=True"));
-
             builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             builder.Services.AddScoped<ICustomerService, CustomerService>();
             builder.Services.AddScoped<IGoodService, GoodService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+            builder.Services.AddScoped<IOrderContentService, OrderContentService>();
+            builder.Services.AddScoped<IManufacturerService, ManufacturerService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IFilterService, FilterService>();
+            builder.Services.AddScoped<IGoodFilterValueService, GoodFilterValueService>();
 
             // Add services to the container.
 

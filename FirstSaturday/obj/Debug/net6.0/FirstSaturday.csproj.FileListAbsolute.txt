@@ -1,7 +1,5 @@
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.csproj.AssemblyReference.cache
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.AssemblyInfoInputs.cache
-C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.AssemblyInfo.cs
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.csproj.CoreCompileInputs.cache
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.MvcApplicationPartsAssemblyInfo.cache
@@ -75,3 +73,9 @@ C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Tas
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.pdb
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\FirstSaturday.genruntimeconfig.cache
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\obj\Debug\net6.0\ref\FirstSaturday.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\BusinessLogic\bin\Debug\net6.0\BusinessLogic.runtimeconfig.json
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\DataAccess\.filenesting.json
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\Humanizer.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\Domain.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\FirstSaturday\bin\Debug\net6.0\Domain.pdb

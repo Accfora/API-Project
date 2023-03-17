@@ -1,0 +1,17 @@
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\Domain.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\bin\Debug\net6.0\Domain.pdb
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
