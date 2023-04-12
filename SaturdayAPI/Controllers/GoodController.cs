@@ -1,7 +1,11 @@
-﻿using Domain.Interfaces;
+﻿using BusinessLogic.Services;
+using Domain.Interfaces;
 using Domain.Models;
+using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using SaturdayAPI.Contracts.Customer;
 
 namespace FirstSaturday.Controllers
 {
@@ -14,28 +18,47 @@ namespace FirstSaturday.Controllers
         {
             _goodService = GoodService;
         }
+        /// <summary>
+        /// Получение всех товаров
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _goodService.GetAll());
         }
+        /// <summary>
+        /// Получение товара по id
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _goodService.GetById(id));
+            var result = await _goodService.GetById(id);
+            var response = result.Adapt<GetGoodResponse>();
+            return Ok(response);
         }
+        /// <summary>
+        /// Добавление товара
+        /// </summary>
         [HttpPost]
-        public async Task<IActionResult> Add(Good Good)
+        public async Task<IActionResult> Add(CreateGoodRequest request)
         {
-            await _goodService.Create(Good);
+            var customerDto = request.Adapt<Good>();
+            await _goodService.Create(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Обновление товара
+        /// </summary>
         [HttpPut]
-        public async Task<IActionResult> Update(Good Good)
+        public async Task<IActionResult> Update(CreateGoodRequest request)
         {
-            await _goodService.Update(Good);
+            var customerDto = request.Adapt<Good>();
+            await _goodService.Update(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Удаление товара
+        /// </summary>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {

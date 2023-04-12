@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SaturdayAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FirstSaturday.Controllers.CategoryController.GetAll">
+            <summary>
+            Получение всех категорий
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CategoryController.GetById(System.Int32)">
+            <summary>
+            Получение категории по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CategoryController.Add(SaturdayAPI.Contracts.Customer.CreateCategoryRequest)">
+            <summary>
+            Создание новой категории
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CategoryController.Update(SaturdayAPI.Contracts.Customer.CreateCategoryRequest)">
+            <summary>
+            Обновление категории
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CategoryController.Delete(System.Int32)">
+            <summary>
+            Удаление категории
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CustomerController.GetAll">
+            <summary>
+            Получение всех пользователей
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CustomerController.GetById(System.Int32)">
+            <summary>
+            Получение пользователя по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CustomerController.Add(SaturdayAPI.Contracts.Customer.CreateCustomerRequest)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+             <code>
+                 POST /Todo<br/>
+                 {<br/>
+                     "login" : "A4Tech Bloody B188",<br/>
+                     "password" : "!Pa$$word123@",<br/>
+                     "firstname" : "Иван",<br/>
+                     "lastname" : "Иванов",<br/>
+                     "middlename" : "Иванович"<br/>
+                 }<br/>
+             </code>
+             
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CustomerController.Update(SaturdayAPI.Contracts.Customer.CreateCustomerRequest)">
+            <summary>
+            Обновление пользователя
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.CustomerController.Delete(System.Int32)">
+            <summary>
+            Удаление пользователя
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.FilterController.GetAll">
+            <summary>
+            Получение всех фильтров
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.FilterController.GetById(System.Int32)">
+            <summary>
+            Получение фильтра по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.FilterController.Add(SaturdayAPI.Contracts.Customer.CreateFilterRequest)">
+            <summary>
+            Добавление фильтра
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.FilterController.Update(SaturdayAPI.Contracts.Customer.CreateFilterRequest)">
+            <summary>
+            Обновление фильтра
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.FilterController.Delete(System.Int32)">
+            <summary>
+            Удаление фильтра
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodController.GetAll">
+            <summary>
+            Получение всех товаров
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodController.GetById(System.Int32)">
+            <summary>
+            Получение товара по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodController.Add(SaturdayAPI.Contracts.Customer.CreateGoodRequest)">
+            <summary>
+            Добавление товара
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodController.Update(SaturdayAPI.Contracts.Customer.CreateGoodRequest)">
+            <summary>
+            Обновление товара
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodController.Delete(System.Int32)">
+            <summary>
+            Удаление товара
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.GetAll">
+            <summary>
+            Получение всхе значений товаров по фильтрам
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.GetById(System.Int32,System.Int32)">
+            <summary>
+            Получение значения по фильтру по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Add(SaturdayAPI.Contracts.Customer.CreateGoodFilterValueRequest)">
+            <summary>
+            Добавление значения по фильтру
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Update(SaturdayAPI.Contracts.Customer.CreateGoodFilterValueRequest)">
+            <summary>
+            Обновление значения по фильтру
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Delete(System.Int32,System.Int32)">
+            <summary>
+            Удаление значение по фильтру
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.GetAll">
+            <summary>
+            Получение всех производителей
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.GetById(System.Int32)">
+            <summary>
+            Получение производителя по id
+            </summary>
+        </member>
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.Add(SaturdayAPI.Contracts.Customer.CreateManufacturerRequest)">
+            <summary>
+            Добавление производителя
+            </summary>
+            <param name="Manufacturer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.Update(SaturdayAPI.Contracts.Customer.CreateManufacturerRequest)">
+            <summary>
+            Обновление производителя
+            </summary>
+            <param name="Manufacturer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.Delete(System.Int32)">
+            <summary>
+            Удаление производителя
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderContentController.GetAll">
+            <summary>
+            Получение всех содержимых корзин
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderContentController.GetById(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Получение содержимого корзины по id
+            </summary>
+            <param name="id_o"></param>
+            <param name="id_c"></param>
+            <param name="id_g"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderContentController.Add(SaturdayAPI.Contracts.Customer.CreateOrderContentRequest)">
+            <summary>
+            Добавление содержимого корзины
+            </summary>
+            <param name="OrderContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderContentController.Update(SaturdayAPI.Contracts.Customer.CreateOrderContentRequest)">
+            <summary>
+            Изменение элемента содержимого корзины
+            </summary>
+            <param name="OrderContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderContentController.Delete(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Удаление элемента содержимого корзины
+            </summary>
+            <param name="id_o"></param>
+            <param name="id_c"></param>
+            <param name="id_g"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderController.GetAll">
+            <summary>
+            Получение всех заказов
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderController.GetById(System.Int32,System.Int32)">
+            <summary>
+            Получение заказа по id
+            </summary>
+            <param name="id_o"></param>
+            <param name="id_c"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderController.Add(SaturdayAPI.Contracts.Customer.CreateOrderRequest)">
+            <summary>
+            Добавление заказа
+            </summary>
+            <param name="Order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderController.Update(SaturdayAPI.Contracts.Customer.CreateOrderRequest)">
+            <summary>
+            Обновление заказа
+            </summary>
+            <param name="Order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FirstSaturday.Controllers.OrderController.Delete(System.Int32,System.Int32)">
+            <summary>
+            Удаление заказа
+            </summary>
+            <param name="id_o"></param>
+            <param name="id_c"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

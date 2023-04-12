@@ -69,3 +69,7 @@ C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Tas
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\obj\Debug\net6.0\SaturdayAPI.pdb
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\obj\Debug\net6.0\SaturdayAPI.genruntimeconfig.cache
 C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\obj\Debug\net6.0\ref\SaturdayAPI.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\bin\Debug\net6.0\SaturdayAPI.xml
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\obj\Debug\net6.0\SaturdayAPI.xml
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\bin\Debug\net6.0\Mapster.dll
+C:\Users\borod\OneDrive\Рабочий стол\ThirdAnd0,5\Ларионов\Task4\SaturdayAPI\bin\Debug\net6.0\Mapster.Core.dll

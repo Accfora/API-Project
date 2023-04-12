@@ -1,7 +1,10 @@
-﻿using Domain.Interfaces;
+﻿using BusinessLogic.Services;
+using Domain.Interfaces;
 using Domain.Models;
+using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SaturdayAPI.Contracts.Customer;
 
 namespace FirstSaturday.Controllers
 {
@@ -14,28 +17,47 @@ namespace FirstSaturday.Controllers
         {
             _GoodFilterValueService = GoodFilterValueService;
         }
+        /// <summary>
+        /// Получение всхе значений товаров по фильтрам
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _GoodFilterValueService.GetAll());
         }
+        /// <summary>
+        /// Получение значения по фильтру по id
+        /// </summary>
         [HttpGet("{id_g}/{id_f}")]
         public async Task<IActionResult> GetById(int id_g, int id_f)
         {
-            return Ok(await _GoodFilterValueService.GetById(id_g, id_f));
+            var result = await _GoodFilterValueService.GetById(id_g, id_f);
+            var response = result.Adapt<GetGoodFilterValueResponse>();
+            return Ok(response);
         }
+        /// <summary>
+        /// Добавление значения по фильтру
+        /// </summary>
         [HttpPost]
-        public async Task<IActionResult> Add(GoodFilterValue GoodFilterValue)
+        public async Task<IActionResult> Add(CreateGoodFilterValueRequest request)
         {
-            await _GoodFilterValueService.Create(GoodFilterValue);
+            var customerDto = request.Adapt<GoodFilterValue>();
+            await _GoodFilterValueService.Create(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Обновление значения по фильтру
+        /// </summary>
         [HttpPut]
-        public async Task<IActionResult> Update(GoodFilterValue GoodFilterValue)
+        public async Task<IActionResult> Update(CreateGoodFilterValueRequest request)
         {
-            await _GoodFilterValueService.Update(GoodFilterValue);
+            var customerDto = request.Adapt<GoodFilterValue>();
+            await _GoodFilterValueService.Update(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Удаление значение по фильтру
+        /// </summary>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id_g, int id_f)
         {

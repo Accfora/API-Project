@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Domain.Interfaces;
 using BusinessLogic.Services;
 using DataAccess;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 namespace FirstSaturday
 {
@@ -28,7 +30,22 @@ namespace FirstSaturday
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Интернет-магазин SaturdayAPI",
+                    Description = "Интернет-магазин выходного дня, в котором собраны различные товары для жизни",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Контакты: Леонид Бородин",
+                        Url = new Uri("https://vk.com/qwerty729")
+                    }
+                });
+                var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+            });
 
             var app = builder.Build();
 

@@ -1,7 +1,10 @@
-﻿using Domain.Interfaces;
+﻿using BusinessLogic.Services;
+using Domain.Interfaces;
 using Domain.Models;
+using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SaturdayAPI.Contracts.Customer;
 
 namespace FirstSaturday.Controllers
 {
@@ -14,28 +17,53 @@ namespace FirstSaturday.Controllers
         {
             _ManufacturerService = ManufacturerService;
         }
+        /// <summary>
+        /// Получение всех производителей
+        /// </summary>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _ManufacturerService.GetAll());
         }
+        /// <summary>
+        /// Получение производителя по id
+        /// </summary>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            return Ok(await _ManufacturerService.GetById(id));
+            var result = await _ManufacturerService.GetById(id);
+            var response = result.Adapt<GetManufacturerResponse>();
+            return Ok(response);
         }
+        /// <summary>
+        /// Добавление производителя
+        /// </summary>
+        /// <param name="Manufacturer"></param>
+        /// <returns></returns>
         [HttpPost]
-        public async Task<IActionResult> Add(Manufacturer Manufacturer)
+        public async Task<IActionResult> Add(CreateManufacturerRequest request)
         {
-            await _ManufacturerService.Create(Manufacturer);
+            var customerDto = request.Adapt<Manufacturer>();
+            await _ManufacturerService.Create(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Обновление производителя
+        /// </summary>
+        /// <param name="Manufacturer"></param>
+        /// <returns></returns>
         [HttpPut]
-        public async Task<IActionResult> Update(Manufacturer Manufacturer)
+        public async Task<IActionResult> Update(CreateManufacturerRequest request)
         {
-            await _ManufacturerService.Update(Manufacturer);
+            var customerDto = request.Adapt<Manufacturer>();
+            await _ManufacturerService.Update(customerDto);
             return Ok();
         }
+        /// <summary>
+        /// Удаление производителя
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
