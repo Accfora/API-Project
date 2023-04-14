@@ -15,8 +15,10 @@ jobs:
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1'
+        dotnet-version: '6.0'
     - name: Build
       run: dotnet build --configuration Release
     - name: Test
       run: dotnet test --configuration Release --no-build
+    - name: FormatTest
+      run: dotnet-format --folder --check --verbosity diagnostic
