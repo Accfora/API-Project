@@ -28,7 +28,7 @@ namespace DataAccess
             get
             {
                 if (_good == null)
-                    _good= new GoodRepository(_repContext);
+                    _good = new GoodRepository(_repContext);
                 return _good;
             }
         }
@@ -46,7 +46,7 @@ namespace DataAccess
             get
             {
                 if (_orderContent == null)
-                    _orderContent= new OrderContentRepository(_repContext);
+                    _orderContent = new OrderContentRepository(_repContext);
                 return _orderContent;
             }
         }
@@ -55,7 +55,7 @@ namespace DataAccess
             get
             {
                 if (_manufacturer == null)
-                    _manufacturer= new ManufacturerRepository(_repContext);
+                    _manufacturer = new ManufacturerRepository(_repContext);
                 return _manufacturer;
             }
         }
@@ -64,7 +64,7 @@ namespace DataAccess
             get
             {
                 if (_category == null)
-                    _category= new CategoryRepository(_repContext);
+                    _category = new CategoryRepository(_repContext);
                 return _category;
             }
         }
@@ -73,7 +73,7 @@ namespace DataAccess
             get
             {
                 if (_filter == null)
-                    _filter= new FilterRepository(_repContext); 
+                    _filter = new FilterRepository(_repContext);
                 return _filter;
             }
         }
