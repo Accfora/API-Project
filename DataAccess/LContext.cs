@@ -267,6 +267,6 @@ namespace DataAccess
             OnModelCreatingPartial(modelBuilder);
         }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder); //Рандомный комментарий
+        partial void OnModelCreatingPartial(ModelBuilder modelBuilder); //Рандомный комментарий ещё
     }
 }
