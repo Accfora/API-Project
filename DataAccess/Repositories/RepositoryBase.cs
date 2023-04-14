@@ -13,7 +13,7 @@ namespace DataAccess.Repositories
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         protected LContext RepositoryContext { get; set; }
-        protected RepositoryBase(LContext repContext) 
+        protected RepositoryBase(LContext repContext)
         {
             RepositoryContext = repContext;
         }
