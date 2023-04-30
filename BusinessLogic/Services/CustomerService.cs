@@ -22,20 +22,30 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Customer model)
         {
-            _repositoryWrapper.Customer.Create(model);
-            _repositoryWrapper.Save();
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            if (string.IsNullOrEmpty(model.Surname))
+            {
+                throw new ArgumentException(nameof(model.Surname));
+            }
+
+            await _repositoryWrapper.Customer.Create(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Update(Customer model)
         {
-            _repositoryWrapper.Customer.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Customer.Update(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Delete(int id)
         {
             var customer = await _repositoryWrapper.Customer
             .FindByCondition(x => x.CustomerId == id);
-            _repositoryWrapper.Customer.Delete(customer.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Customer.Delete(customer.First());
+            await _repositoryWrapper.Save();
         }
 
     }

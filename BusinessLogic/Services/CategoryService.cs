@@ -22,20 +22,20 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Category model)
         {
-            _repositoryWrapper.Category.Create(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Category.Create(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Update(Category model)
         {
-            _repositoryWrapper.Category.Update(model);
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Category.Update(model);
+            await _repositoryWrapper.Save();
         }
         public async Task Delete(int id)
         {
             var Category = await _repositoryWrapper.Category
             .FindByCondition(x => x.CategotyId == id);
-            _repositoryWrapper.Category.Delete(Category.First());
-            _repositoryWrapper.Save();
+            await _repositoryWrapper.Category.Delete(Category.First());
+            await _repositoryWrapper.Save();
         }
 
     }
