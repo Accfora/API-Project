@@ -21,6 +21,30 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Good model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            if (string.IsNullOrEmpty(model.Title))
+            {
+                throw new ArgumentException(nameof(model.Title));
+            }
+
+            if (model.CategotyId == 0)
+            {
+                throw new ArgumentException(nameof(model.CategotyId));
+            }
+
+            if (model.Price == 0)
+            {
+                throw new ArgumentException(nameof(model.Price));
+            }
+            if (model.ManufacturerId == 0)
+            {
+                throw new ArgumentException(nameof(model.ManufacturerId));
+            }
+
             await _repositoryWrapper.Good.Create(model);
             await _repositoryWrapper.Save();
         }

@@ -22,6 +22,26 @@ namespace BusinessLogic.Services
         }
         public async Task Create(Manufacturer model)
         {
+            if (model == null)
+            {
+                throw new ArgumentNullException(nameof(model));
+            }
+
+            if (model.ManufacturerId == 0)
+            {
+                throw new ArgumentException(nameof(model.ManufacturerId));
+            }
+
+            if (string.IsNullOrEmpty(model.ManufacturerName))
+            {
+                throw new ArgumentException(nameof(model.ManufacturerName));
+            }
+
+            if (string.IsNullOrEmpty(model.ManufacturerCountry))
+            {
+                throw new ArgumentException(nameof(model.ManufacturerCountry));
+            }
+
             await _repositoryWrapper.Manufacturer.Create(model);
             await _repositoryWrapper.Save();
         }
