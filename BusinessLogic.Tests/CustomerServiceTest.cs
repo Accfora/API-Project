@@ -35,6 +35,7 @@ namespace BusinessLogic.Tests
                 new object[] { new Customer() { Surname = "Text", Name = "Text", Login = "", Password = "" } }
             };
         }
+
         [Fact]
         public async Task CreateAsync_NullUser_ShouldThrowNullExep()
         {
@@ -47,7 +48,7 @@ namespace BusinessLogic.Tests
         }
         [Theory]
         [MemberData(nameof(GetIncorrectCustomers))]
-        public async Task CreateAsynNewUser_ShouldNot(Customer customer)
+        public async Task CreateAsyncNewUser_ShouldNot(Customer customer)
         {
             //arrange 
             var newCustomer = customer;
@@ -60,7 +61,7 @@ namespace BusinessLogic.Tests
             Assert.IsType<ArgumentException>(ex);
         }
         [Fact]
-        public async Task CreateAsynNewUser_Should()
+        public async Task CreateAsyncNewUser_Should()
         {
             //arrange 
             var newCustomer = new Customer
