@@ -29,13 +29,25 @@ namespace FirstSaturday.Controllers
         /// <summary>
         /// Получение товара по id
         /// </summary>
-        [HttpGet("{id}")]
+        [HttpGet("byid/{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             var result = await _goodService.GetById(id);
             var response = result.Adapt<GetGoodResponse>();
             return Ok(response);
         }
+        /// <summary>
+        /// Получение товаров по id_C
+        /// </summary>
+        
+        //[HttpGet("byc/{categoty_id}")]
+        //public async Task<IActionResult> GetByCategory(int categoty_id)
+        //{
+        //    var result = await _goodService.GetByCategory(categoty_id);
+        //    var response = result.Adapt<GetGoodResponse>();
+        //    return Ok(response);
+        //}
+
         /// <summary>
         /// Добавление товара
         /// </summary>

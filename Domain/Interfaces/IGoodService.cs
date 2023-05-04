@@ -9,5 +9,7 @@ namespace Domain.Interfaces
         Task Create(Good model);
         Task Update(Good model);
         Task Delete(int id);
+        Task<List<Good>> GetByCategory(int id_C);
+
     }
 }

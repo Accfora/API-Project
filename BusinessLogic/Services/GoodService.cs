@@ -16,8 +16,15 @@ namespace BusinessLogic.Services
         }
         public async Task<Good> GetById(int id)
         {
-            var good = await _repositoryWrapper.Good.FindByCondition(x => x.GoodId == id);
+            var good = await _repositoryWrapper
+                .Good.FindByCondition(x => x.GoodId == id);
             return good.First();
+        }
+        public async Task<List<Good>> GetByCategory(int id_c)
+        {
+            var goods = await _repositoryWrapper.Good
+                .FindByCondition(x => x.CategotyId == id_c);
+            return goods;
         }
         public async Task Create(Good model)
         {
