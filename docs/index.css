@@ -1,0 +1,84 @@
+h1 {
+	color: blue;
+}
+body{
+	margin: 0;
+}
+.header {
+	padding: 75px;
+	text-align: center;
+	background-color: cornflowerblue;
+	color: white;
+}
+.row {
+	display: flex;
+}
+
+.side {
+	background-color: palegreen;
+	padding: 22px;
+}
+
+.main {
+	flex: 70;
+	background-color: whitesmoke;
+	padding: 20px;
+}
+
+.void {
+	background-color: black;
+}
+.what {
+	overflow: hidden;
+	text-align: center;
+	padding: 12px;
+	background-color:black;
+}
+.what a{
+	float:right;
+	display:block;
+	color:lightgray;
+	text-align:center;
+	padding:15px 20px;
+	text-decoration:wavy;
+}
+.what a.back {
+	float: none;
+	text-align: left;
+	color: deeppink;
+}
+.what a.right {
+	float: left;
+}
+.what a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.fifty{
+	width:50%;
+}
+*{
+	box-sizing:border-box;
+}
+.footer{
+	padding:150px;
+	text-align:center;
+	background-image: url(photo/dealer.png);
+}
+@media screen and (max-width: 700px){
+	.row{
+		flex-direction:column;
+	}
+}
+@media screen and (max-width: 400px){
+	.what a{
+		float:none;
+		width:100%;
+	}
+}
+.big{
+	width:95%;
+}
+.hub {
+	width: 10%;
+}
