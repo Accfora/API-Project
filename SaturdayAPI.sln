@@ -22,7 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{FF4F88CF-62F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{14C928C8-8721-415C-A756-E51A75F4B4EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{EE227C50-FE9A-43A8-8A90-C48F604C2250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{EE227C50-FE9A-43A8-8A90-C48F604C2250}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
