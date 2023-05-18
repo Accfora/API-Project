@@ -1,0 +1,21 @@
+﻿@page "/goods-list"
+@inject IGoodService GoodService
+
+<h3>GoodList</h3>
+<br />
+
+@foreach (var g in goods)
+{
+    <h4>Товар: @g.Title</h4>
+    <h4>Цена: @g.Price</h4>
+    <hr />
+}
+
+@code {
+    List<Good> goods = new List<Good>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        goods = await GoodService.GetAll();
+    }
+}

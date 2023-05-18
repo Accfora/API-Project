@@ -4,7 +4,7 @@ using Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SaturdayAPI.Contracts.Customer;
+using SaturdayAPI.Contracts.Manufacturer;
 
 namespace FirstSaturday.Controllers
 {

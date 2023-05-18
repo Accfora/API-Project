@@ -5,7 +5,7 @@ using Mapster;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
-using SaturdayAPI.Contracts.Customer;
+using SaturdayAPI.Contracts.Good;
 
 namespace FirstSaturday.Controllers
 {

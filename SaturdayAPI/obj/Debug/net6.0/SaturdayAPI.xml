@@ -14,12 +14,12 @@
             Получение категории по id
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.CategoryController.Add(SaturdayAPI.Contracts.Customer.CreateCategoryRequest)">
+        <member name="M:FirstSaturday.Controllers.CategoryController.Add(SaturdayAPI.Contracts.Category.CreateCategoryRequest)">
             <summary>
             Создание новой категории
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.CategoryController.Update(SaturdayAPI.Contracts.Customer.CreateCategoryRequest)">
+        <member name="M:FirstSaturday.Controllers.CategoryController.Update(SaturdayAPI.Contracts.Category.CreateCategoryRequest)">
             <summary>
             Обновление категории
             </summary>
@@ -81,12 +81,12 @@
             Получение фильтра по id
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.FilterController.Add(SaturdayAPI.Contracts.Customer.CreateFilterRequest)">
+        <member name="M:FirstSaturday.Controllers.FilterController.Add(SaturdayAPI.Contracts.Filter.CreateFilterRequest)">
             <summary>
             Добавление фильтра
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.FilterController.Update(SaturdayAPI.Contracts.Customer.CreateFilterRequest)">
+        <member name="M:FirstSaturday.Controllers.FilterController.Update(SaturdayAPI.Contracts.Filter.CreateFilterRequest)">
             <summary>
             Обновление фильтра
             </summary>
@@ -106,12 +106,12 @@
             Получение товара по id
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.GoodController.Add(SaturdayAPI.Contracts.Customer.CreateGoodRequest)">
+        <member name="M:FirstSaturday.Controllers.GoodController.Add(SaturdayAPI.Contracts.Good.CreateGoodRequest)">
             <summary>
             Добавление товара
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.GoodController.Update(SaturdayAPI.Contracts.Customer.CreateGoodRequest)">
+        <member name="M:FirstSaturday.Controllers.GoodController.Update(SaturdayAPI.Contracts.Good.CreateGoodRequest)">
             <summary>
             Обновление товара
             </summary>
@@ -131,12 +131,12 @@
             Получение значения по фильтру по id
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Add(SaturdayAPI.Contracts.Customer.CreateGoodFilterValueRequest)">
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Add(SaturdayAPI.Contracts.GoodFilterValue.CreateGoodFilterValueRequest)">
             <summary>
             Добавление значения по фильтру
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Update(SaturdayAPI.Contracts.Customer.CreateGoodFilterValueRequest)">
+        <member name="M:FirstSaturday.Controllers.GoodFilterValueController.Update(SaturdayAPI.Contracts.GoodFilterValue.CreateGoodFilterValueRequest)">
             <summary>
             Обновление значения по фильтру
             </summary>
@@ -156,14 +156,14 @@
             Получение производителя по id
             </summary>
         </member>
-        <member name="M:FirstSaturday.Controllers.ManufacturerController.Add(SaturdayAPI.Contracts.Customer.CreateManufacturerRequest)">
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.Add(SaturdayAPI.Contracts.Manufacturer.CreateManufacturerRequest)">
             <summary>
             Добавление производителя
             </summary>
             <param name="Manufacturer"></param>
             <returns></returns>
         </member>
-        <member name="M:FirstSaturday.Controllers.ManufacturerController.Update(SaturdayAPI.Contracts.Customer.CreateManufacturerRequest)">
+        <member name="M:FirstSaturday.Controllers.ManufacturerController.Update(SaturdayAPI.Contracts.Manufacturer.CreateManufacturerRequest)">
             <summary>
             Обновление производителя
             </summary>
@@ -192,14 +192,14 @@
             <param name="id_g"></param>
             <returns></returns>
         </member>
-        <member name="M:FirstSaturday.Controllers.OrderContentController.Add(SaturdayAPI.Contracts.Customer.CreateOrderContentRequest)">
+        <member name="M:FirstSaturday.Controllers.OrderContentController.Add(SaturdayAPI.Contracts.OrderContent.CreateOrderContentRequest)">
             <summary>
             Добавление содержимого корзины
             </summary>
             <param name="OrderContent"></param>
             <returns></returns>
         </member>
-        <member name="M:FirstSaturday.Controllers.OrderContentController.Update(SaturdayAPI.Contracts.Customer.CreateOrderContentRequest)">
+        <member name="M:FirstSaturday.Controllers.OrderContentController.Update(SaturdayAPI.Contracts.OrderContent.CreateOrderContentRequest)">
             <summary>
             Изменение элемента содержимого корзины
             </summary>
@@ -229,14 +229,14 @@
             <param name="id_c"></param>
             <returns></returns>
         </member>
-        <member name="M:FirstSaturday.Controllers.OrderController.Add(SaturdayAPI.Contracts.Customer.CreateOrderRequest)">
+        <member name="M:FirstSaturday.Controllers.OrderController.Add(SaturdayAPI.Contracts.Order.CreateOrderRequest)">
             <summary>
             Добавление заказа
             </summary>
             <param name="Order"></param>
             <returns></returns>
         </member>
-        <member name="M:FirstSaturday.Controllers.OrderController.Update(SaturdayAPI.Contracts.Customer.CreateOrderRequest)">
+        <member name="M:FirstSaturday.Controllers.OrderController.Update(SaturdayAPI.Contracts.Order.CreateOrderRequest)">
             <summary>
             Обновление заказа
             </summary>
