@@ -1,0 +1,68 @@
+﻿@page "/reg"
+
+@using Web.Auth;
+@inject ICustomerService CustomerService
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+
+<div class="row">
+    <div class="col-1g-4 offset-1g-4 pt-4 pb-4 border">
+        :       <div class="mb-3 text-center">
+            <h3>Registration</h3>
+        </div>
+        <div class="mb-3">
+            <label>Surname</label>
+            <input @bind="user.Surname" type="text" class="form-control" placeholder="Surname" />
+        </div>
+        <div class="mb-3">
+            <label>Name</label>
+            <input @bind="user.Name" type="text" class="form-control" placeholder="Name" />
+        </div>
+        <div class="mb-3">
+            <label>Email</label>
+            <input @bind="user.Login" type="email" class="form-control" placeholder="Email" />
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="user.Password" type="password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="mb-3">
+            <label>Repeat password</label>
+            <input @bind="ch" type="password" class="form-control" placeholder="Repeat password" />
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="AddUser" class="btn btn-primary">Registration</button>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    private Customer user = new Customer();
+    private string ch;
+
+    private async Task AddUser()
+    {
+        if (user.Password != ch)
+        {
+            var message = $"Не совпадают";
+            await js.InvokeVoidAsync("alert", message);
+        }
+        else
+        {
+            user.CustomerId = new Random().Next(int.MaxValue);
+
+            try
+            {
+                await CustomerService.Create(user);
+                navManager.NavigateTo("/", true);
+            }
+            catch
+            {
+                await js.InvokeVoidAsync("alert", "Данные не очень");
+            }
+        }
+
+    }
+}

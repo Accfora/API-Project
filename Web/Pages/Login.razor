@@ -1,4 +1,4 @@
-﻿@page "/Login"
+﻿@page "/login"
 @using Web.Auth;
 @inject ICustomerService CustomerService
 @inject IJSRuntime js
@@ -16,7 +16,7 @@
         </div>
         <div class="mb-3">
             <label>Password</Label>
-            <input @bind="model .Password" type="password" class="form-controL" placeholder="Password" />
+            <input @bind="model.Password" type="password" class="form-control" placeholder="Password" />
         </div>
         <div class="mb-3 d-grid gap-2">
             <button @onclick="Authenticate" class="btn btn-primary">Login</button>
@@ -39,7 +39,7 @@
 
     if (userAccount == null)
     {
-        await js.InvokeVoidAsync("alert", "Invalid Colyaska");
+        await js.InvokeVoidAsync("Alert", "Invalid");
         return;
     }
 
@@ -47,9 +47,9 @@
 
     await customAuthStateProvider.UpdateAuthenticationStateAsync(new UserSession
     {
-        Id = userAccount .Id.ToString(),
-        Email = userAccount.Email,
-        FirstName = userAccount.Firstname,
+        Id = userAccount.CustomerId.ToString(),
+        Email = userAccount.Login,
+        FirstName = userAccount.Surname,
         Role = "User"
     });
     navManager.NavigateTo("/", true); 
