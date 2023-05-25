@@ -5,6 +5,10 @@
 
 <PageTitle>Web</PageTitle>
 
+<MudThemeProvider></MudThemeProvider>
+<MudDialog></MudDialog>
+<MudSnackbarProvider></MudSnackbarProvider>
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -15,6 +19,7 @@
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
             <AuthorizeView>
                 <Authorized>
+                    <a href="/profile">Profile</a>
                     <a @onclick="Logout" href="javascript:void(0)">Logout</a>
                 </Authorized>
                 <NotAuthorized>

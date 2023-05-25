@@ -1,4 +1,5 @@
 ﻿@page "/goods-list"
+@attribute [Authorize(Roles = "Administrator,User")]
 @inject IGoodService GoodService
 
 <h3>GoodList</h3>

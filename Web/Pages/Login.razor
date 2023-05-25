@@ -50,7 +50,7 @@
         Id = userAccount.CustomerId.ToString(),
         Email = userAccount.Login,
         FirstName = userAccount.Surname,
-        Role = "User"
+        Role = userAccount.CustomerId <= 5?"Administrator":"User"
     });
     navManager.NavigateTo("/", true); 
     } 

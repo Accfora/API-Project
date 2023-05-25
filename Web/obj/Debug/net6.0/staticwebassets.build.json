@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EwNjj9VDVDAPC7/pgRTlh+xYxk67OVedK0NqUWmKxdE=",
+  "Hash": "6cyshcjAdyVY/8y/BfmoPKnQPOATTMfiPLF7zHIWYJk=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\borod\\.nuget\\packages\\mudblazor\\6.3.0\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Web\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Web.styles.css",
       "SourceId": "Web",

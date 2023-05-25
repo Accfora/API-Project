@@ -1,0 +1,17 @@
+﻿@page "/profile"
+@attribute [Authorize(Roles = "Administrator,User")]
+
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+
+<MudText Typo="Typo.h3">Your profile</MudText>
+
+<AuthorizeView>
+    <Authorized>
+        <MudText Typo="Typo.h6">@context.User.Identity.Name</MudText>
+        @*<MudText Typo="Typo.h6"></MudText>*@
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    //
+}

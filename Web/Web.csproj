@@ -19,4 +19,8 @@
     <_ContentIncludedByDefault Remove="Pages\Reg.razor" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="6.3.0" />
+  </ItemGroup>
+
 </Project>
