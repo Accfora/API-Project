@@ -7,4 +7,8 @@
         public string FirstName { get; set;}
         public string Role { get; set;}
     }
+    public class I
+    {
+        public static string i { get; set; }
+    }
 }

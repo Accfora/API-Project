@@ -5,9 +5,31 @@
 
 <PageTitle>Web</PageTitle>
 
-<MudThemeProvider></MudThemeProvider>
 <MudDialog></MudDialog>
 <MudSnackbarProvider></MudSnackbarProvider>
+<MudThemeProvider/>
+
+@*<MudLayout>
+    <MudAppBar Elevation="0">
+        <MudSpacer></MudSpacer>
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        <AuthorizeView>
+            <Authorized>
+                <a href="/profile">Profile</a>
+                <a @onclick="Logout" href="javascript:void(0)">Logout</a>
+            </Authorized>
+            <NotAuthorized>
+                <a href="/login">Login</a>
+                <a href="/reg">Reg</a>
+            </NotAuthorized>
+        </AuthorizeView>
+    </MudAppBar>
+    <MudMainContent>
+        <MudContainer Class="mb-16 mt-4">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>*@
 
 <div class="page">
     <div class="sidebar">

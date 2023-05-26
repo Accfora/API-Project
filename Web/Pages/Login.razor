@@ -37,13 +37,14 @@
     {
         var userAccount = await CustomerService.Login(model.Email, model.Password);
 
-    if (userAccount == null)
-    {
-        await js.InvokeVoidAsync("Alert", "Invalid");
-        return;
-    }
+        if (userAccount == null)
+        {
+            await js.InvokeVoidAsync("Alert", "Invalid");
+            return;
+        }
 
-    var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+        I.i = userAccount.CustomerId.ToString();
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
 
     await customAuthStateProvider.UpdateAuthenticationStateAsync(new UserSession
     {
