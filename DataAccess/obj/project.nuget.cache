@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ESH2mpk+UNMMjI6At5orQyRS3Ntcyal1yFC8PwryojRQy/EukczzMFJIbojLE5CiJ0y1AvuVFSj0Lj1N17FFgg==",
+  "dgSpecHash": "tjKz9vW4uU9GMQvPe82ITKUtSk5LrKVu3BKyFBNO9+QxHPNZZxSPdVW8UCxYPHr/H0bZ/py/4w0Kw1lN9kQqFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\borod\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\borod\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

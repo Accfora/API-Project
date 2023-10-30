@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\SaturdayAPI.csproj": {}
+    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\SaturdayAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\borod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\borod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj"
+              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\borod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\borod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +87,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj"
+              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj": {
+    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\borod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\borod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -189,14 +189,14 @@
         }
       }
     },
-    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\SaturdayAPI.csproj": {
+    "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\SaturdayAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\SaturdayAPI.csproj",
+        "projectUniqueName": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\SaturdayAPI.csproj",
         "projectName": "SaturdayAPI",
-        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\SaturdayAPI.csproj",
+        "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\SaturdayAPI.csproj",
         "packagesPath": "C:\\Users\\borod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\obj\\",
+        "outputPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\borod\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -213,11 +213,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\DataAccess\\DataAccess.csproj"
               }
             }
           }

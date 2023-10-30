@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DqxauBU5wfErl7/yjlOqGMjtWq8PgxooFQl7Q5Gi9oshrdaKTkNQRAYBmTbwXfIo2NuaUOn2R0SCParx5Ge0Mw==",
+  "dgSpecHash": "mzr9UuUg2SsbBXCzQ00I1Y98mNocWiRze/TWHZMMLbn0BYRSO6fKeR8F2OEuCvYx/fKGtmUHB3gJCWT571jPcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\borod\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
     "C:\\Users\\borod\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.16\\microsoft.aspnetcore.components.6.0.16.nupkg.sha512",

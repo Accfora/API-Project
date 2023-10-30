@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zB7H3ptnmeKXiWJzF6yJIUxX9s5o8MLPNEsuTfJ4febFxzLd52iWhqKrBqo5a2fq9maIE9sXDZ1J2Ajp0ZoHPQ==",
+  "dgSpecHash": "QSe3mne9LiagEvpX5FeODxFo9r1yhh+AIZGBuKo8lFQnlYHijmZj1SA9H+ZxLhH3+jn+KFvofO2E1Ba/qOFVbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\ThirdAnd0,5\\Ларионов\\Task4\\SaturdayAPI\\SaturdayAPI.csproj",
+  "projectFilePath": "C:\\Users\\borod\\OneDrive\\Рабочий стол\\Работы\\Task4..13 (API)\\SaturdayAPI\\SaturdayAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\borod\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\borod\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
